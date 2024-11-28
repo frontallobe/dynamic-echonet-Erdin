@@ -30,6 +30,8 @@ dataset = dicom.dcmread("/Users/erdin/coding/Kardiologie/tte_label_project/pytho
 print(dataset)
 
 
+#  testing changes for commit
+
 # Clear the "converted" folder
 if os.path.exists(destinationFolder):
     for file_name in os.listdir(destinationFolder):
